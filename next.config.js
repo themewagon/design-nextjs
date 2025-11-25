@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-const isProd = true;
+const isProd = false;
 const basePath = isProd ? '/design-nextjs' : ''
 
 const nextConfig = {
