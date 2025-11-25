@@ -115,6 +115,7 @@ const Register = () => {
                                                 <div>
                                                     <button
                                                         // type="submit"
+                                                        onClick={(e) => e.preventDefault()}
                                                         className="group relative flex w-full justify-center rounded-md border border-transparent bg-blue py-2 px-4 text-sm font-medium text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                                                     >
                                                         <span className="absolute inset-y-0 left-0 flex items-center pl-3">
